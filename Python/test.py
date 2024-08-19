@@ -1,0 +1,9 @@
+a=int(input())
+b=int(input())
+c=int(input())
+flag=False
+if((a>b)&&(a>c)):
+    if(a^2==(b^2+c^2)):
+        flag=True
+if(flag==True):
+    print("Yes")
